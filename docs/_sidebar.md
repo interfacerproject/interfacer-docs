@@ -7,10 +7,9 @@
   - [Feature2](https://github.com/LedgerProject/e_privacycentralapp)
 
 # Components and deployment 
-  - **Backend**
+  - [Backend](/pages/backend.md)
     - [Zenflows](https://github.com/dyne/zenflows#readme)
-	- [Zenflows2](https://raw.githubusercontent.com/dyne/zenflows/master/README.md)
-	- [Zenflows3](https://raw.githubusercontent.com/dyne/zenflows/master/README.md ':include :type=code md')
+	- [Zenflows3](https://raw.githubusercontent.com/dyne/zenflows/master/README.md ':include :type=markdown')
 	
 	https://raw.githubusercontent.com/DECODEproject/Zenroom/master/ChangeLog.md
 	- [W3C-DID Controller](https://new.dyne.org/W3C-DID/#/)
