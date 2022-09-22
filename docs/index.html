@@ -17,7 +17,7 @@
     <meta property="og:url" content="https://dev.zenroom.org" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@DyneOrg" />
-    <meta name="twitter:title" content="Zenroom 📝 Documentation" />
+    <meta name="twitter:title" content="Interfacer 📝 Documentation" />
     <meta name="twitter:description" content="Zenroom is a portable and independent virtual machine for secure cryptographic operations. Zencode is the name of the language executed by Zenroom: it is simple to understand and can process large data structures while operating cryptographic transformations on them."
     />
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
@@ -52,15 +52,15 @@
         const uuidv41 = () => ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, c => (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16));
 
         window.$docsify = {
-            logo: "_media/images/zenroom_logo.png",
+            logo: "https://github.com/dyne/interfacer-docs/raw/main/docs/media/general/interfacer-logo.png",
             formatUpdated: '{MM}/{DD}/{YYYY} {HH}:{mm}',
-            repo: "dyne/Zenroom",
+            repo: "dyne/interfacer-docs",
             relativePath: true,
             loadSidebar: true,
             loadNavbar: true,
             autoHeader: false,
             mergeNavbar: true,
-            name: "zenroom",
+            name: "Interfacer",
             coverpage: true,
             auto2top: true,
             subMaxLevel: 3,

@@ -1,5 +1,5 @@
- - Welcome
-   - [Basic info](/general/start.md "The Basic info")
+# Welcome to Interfacer
+ 
 
 # Technology  
  - **List of tech features**
@@ -7,21 +7,26 @@
   - [Feature2](https://github.com/LedgerProject/e_privacycentralapp)
 
 # Components and deployment 
-  - [Backend](/pages/backend.md)
-    - [Zenflows](https://github.com/dyne/zenflows#readme)
-	- [Zenflows3](https://raw.githubusercontent.com/dyne/zenflows/master/README.md ':include :type=markdown')
-	
-	https://raw.githubusercontent.com/DECODEproject/Zenroom/master/ChangeLog.md
-	- [W3C-DID Controller](https://new.dyne.org/W3C-DID/#/)
-	- [Zenswarm-storage](https://github.com/dyne/zenswarm-storage#readme)
-	- [Fabchain](https://github.com/dyne/fabchain#readme)
-  - **Front-end**
-    - [Interfacer-GUI](https://github.com/dyne/interfacer-gui#readme)
-	- [Loshifacer](https://github.com/dyne/loshifacer#readme)
-  - **Submodules**
-    - [Zenflows-crypto](https://github.com/dyne/zenflows-crypto#readme)
-	
+ - [Summary of components](/pages/components.md)
+ - **Back-end**
+   - [Zenflows](/pages/zenflows.md)
+   - [Zenswarm-storage](/pages/zenswarm-storage.md)
+   - [Fabchain](/pages/fabchain.md)
+   - [W3C-DID](https://new.dyne.org/W3C-DID/#/)
+ - **Front-end**
+   - [Interfacer-GUI](/pages/interfacer-gui.md)
+   - [Loshifacer](/pages/loshifacer.md)
+ - **Submodules**
+   - [Zenflows-crypto](/pages/zenflows-crypto)
 
+# User manual  
+  - [Intro](https://github.com/LedgerProject/Anastasis)
+  - [Sign up](https://github.com/LedgerProject/e_privacycentralapp)
+  - [Create asset](https://github.com/LedgerProject/e_privacycentralapp)
+  - [Browse asset](https://github.com/LedgerProject/e_privacycentralapp)
+  - [Feature x](https://github.com/LedgerProject/e_privacycentralapp)
+  - [Feature y](https://github.com/LedgerProject/e_privacycentralapp)
+  - [Feature z](https://github.com/LedgerProject/e_privacycentralapp)
 
 # Misc
  - [Powered by Docsify](https://docsify.js.org/)
