@@ -12,7 +12,7 @@
    - [Zenflows](/pages/zenflows.md)
    - [Zenswarm-storage](/pages/zenswarm-storage.md)
    - [Fabchain](/pages/fabchain.md)
-   - [W3C-DID](https://new.dyne.org/W3C-DID/#/)
+   - [W3C-DID](/pages/w3c-did.md)
  - **Front-end**
    - [Interfacer-GUI](/pages/interfacer-gui.md)
    - [Loshifacer](/pages/loshifacer.md)

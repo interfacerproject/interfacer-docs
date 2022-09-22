@@ -2,54 +2,45 @@
 
 ## Back end
 
-----------
 
-### Zenflows:
+** Zenflows **
 Lorem Ipsum ...
 [Zenflows](/pages/zenflows.md)
 
-----------
-### Zenswarm-storage
+
+** Zenswarm-storage **
 Lorem Ipsum ...
 [Zenswarm-storage](/pages/zenswarm-storage.md)
 
-----------
 
-### Fabchain
+** Fabchain **
 Lorem Ipsum ...
 [Fabchain](/pages/fabchain.md)
 
-----------
 
-### W3C-DID
+** W3C-DID **
 Lorem Ipsum ...
 [W3C-DID](https://new.dyne.org/W3C-DID/#/)
 
-----------
 
-### Zenswarm-storage
+** Zenswarm-storage **
 Lorem Ipsum ...
 [Zenswarm-storage](https://raw.githubusercontent.com/dyne/zenswarm-storage/master/README.md)
 
 
-----------
-
-### Fabchain
+** Fabchain **
 Lorem Ipsum ...
 [Fabchain](https://raw.githubusercontent.com/dyne/fabchain/master/README.md )
-
-----------
-
 
 
 ## Front end
 
-### Interfacer-GUI
+** Interfacer-GUI **
 Lorem Ipsum ...
 
 [Interfacer-GUI](/pages/interfacer-gui.md)
 
-### Loshifacer
+** Loshifacer **
 Lorem Ipsum ...
 
 [Loshifacer](/pages/loshifacer.md)
@@ -57,7 +48,7 @@ Lorem Ipsum ...
 ## Submodules
 
 
-### Zenflows-crypto
+** Zenflows-crypto **
 Lorem Ipsum ...
 
 [Zenflows-crypto](/pages/zenflows-crypto)
