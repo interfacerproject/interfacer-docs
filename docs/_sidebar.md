@@ -6,8 +6,10 @@
 	- [Feature1](https://github.com/LedgerProject/Anastasis)
 	- [Feature2](https://github.com/LedgerProject/e_privacycentralapp) --->
 
-- Components and deployment
-  - [Summary of components](/pages/components.md)
+
+
+- **Features and components**
+[Overview: tech features and stack](/pages/components.md)
   - **Back-end**
 	- [Zenflows](/pages/zenflows.md)
 	- [Zenswarm-storage](/pages/zenswarm-storage.md)
@@ -17,7 +19,7 @@
 	- [Interfacer-GUI](/pages/interfacer-gui.md)
 <!---	- [Loshifacer](/pages/loshifacer.md) --->
 
-  - **Submodules**
+  - **Sub-modules**
 	- [Zenflows-crypto](/pages/zenflows-crypto.md)
 
 - User manual

@@ -6,43 +6,76 @@ FabCityOS provides innovative tools to support the complexity of a distributed a
 
 
 
-### List of tech features
+## Technical features
 
-* Sign up/in via keypairoom
-* Create an Asset - rase Resource + Proposal + intent - using Valueflows ontology
-* l10n (Localization)
-* i18n (Internationalization) 
-* :warning: :hammer: :construction_worker_woman: WIP 
+Below a list of selected features of the FabCityOS platform.
+
+#### Cryptography and privacy
+* The sign in/up flow of FabCityOS is managed by the [Zenflows-crypto](/pages/zenflows-crypto) scheme: 
+  - Each operation operation performed by the user is signed using the [EDDSA](https://datatracker.ietf.org/doc/rfc8032/) scheme with the user's private key, which are **never communicated to the server**. The server knows only the public keys of each user, so in case of a server-side security breach, the hackers will not be able to impersonate any user. 
+  - The user's keyring is generate at sign-up based on the user's answers to a set of security questions.
+  - Based on the user's answers to the security questions, a seed as [mnemonic passphrase](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) format is printed out, the seed can be used to recreate the private keys and sign in from the same device or a different one. 
+  - In case the seed is lost, it can be recreated by answering the security questions again.
+
+#### GraphQL and Valueflows
+* FabCityOS uses [GraphQL](https://graphql.org/) to store and retrieve information in the back end: the front end communicates with the back end via *GraphQL mutations* instead of web APIs, which makes the development more lean and enables third parties to easily create applications that communicate with the back end.
+* The data is modeled using the [Valueflows](https://www.valueflo.ws/): an ontology designed to facilitate internetworking of software projects that handle economic transactions.
+
+#### Distributed caching and sharding
+* FabCityOS uses [Zenswarm-storage](/pages/zenswarm-storage.md) as a distrbuted caching and sharding engine for images, document and information. Designed to work as CDN, it can scale easily and deliver data faster 
+
+#### W3C-DID 
+* Users' digital identities (DID) are stored and distributed using the [W3C-DID](https://www.w3.org/TR/did-core/) standard. For each user a W3C-DID document is stored: the document contains no private or sensitive information about the user (no name, email or other) making the whole platform GDPR compliant by design.
+* The DIDs are produced, and can be resolved, using Dyne.org's open source [W3C-DID method](https://new.dyne.org/W3C-DID/#/), which is registered in the [W3C-DID method list](https://www.w3.org/TR/did-spec-registries/#did-methods).
+
+#### Blockchain and DPP
+* Users' DIDs as well as the DIDs of all the software infrastructure, are stored on blockchain
+* Transactions between users are also stored on blockchain
+* For any asset created or modified in FabCityOS, a Digital Product Passport (DPP) can be created: each DPP contains the  history of the asset (up the DPP creation time), is stored on blockchain and can be verified on the platform, or by third parties, using a link or a QR code.
+
+#### Import from git or LOSH
+* Assets on FabCityOS can be created manually or by importing them from git repositories or from the [LOSH](https://losh.opennext.eu/) database.
+-------------------
+-------------------
 
 
+## Components
 
-# Components
+List of the component stack that power FabCityOS.
 
-## Back end
+#### Back end
 
-* **Zenflows** is a tool to leverage commons-based peer production by documenting and monitoring the life cycle of products [... learn more about Zenflows](/pages/zenflows.md)
-* **Zenswarm-storage** is a simple Tarantool Cartridge-based application [ ... learn more about Zenswarm-storage](/pages/zenswarm-storage.md)
-* **Fabchain** is a bloat-free toolbox to create and operate new blockchains based on ethereum technology [... learn more about Fabchain](/pages/fabchain.md)
-* **W3C-DID**  Dyne.org's DID method [Learn more](https://new.dyne.org/W3C-DID/#/)
+* [Zenflows](/pages/zenflows.md):a tool to leverage commons-based peer production by documenting and monitoring the life cycle of products. Written in Elixir, stores data in [GraphQL](https://graphql.org/) using the [Valueflows](https://www.valueflo.ws/) ontology.
+* [Zenswarm-storage](/pages/zenswarm-storage.md): a distrbuted caching and sharding engine, powered by Tarantool  
+* [Fabchain](/pages/fabchain.md): a bloat-free toolbox to create and operate new blockchains based on ethereum technology 
+* Dyne.org's [W3C-DID method](https://new.dyne.org/W3C-DID/#/): stores DID of users and services in a machine readable interchange format, based on privacy by design principles.
 
 
-## Front end
+#### Front end
 
-* **Interfacer-GUI** is a Progressive Web App (PWA) acting as Graphical User Interface (GUI) and crypto wallet (end-to-end crypto) for FabCityOs [... learn more about Interfacer-GUI](/pages/interfacer-gui.md)
+* [Interfacer-GUI](/pages/interfacer-gui.md): a Progressive Web App (PWA) acting as Graphical User Interface (GUI) and crypto wallet (end-to-end crypto) for FabCityOs 
 
 <!--
 * **Loshifacer** [... learn more about Loshifacer](/pages/loshifacer.md)
 -->
 
-## Submodules
+#### Sub-modules and sub-components
 
-* **Zenflows-crypto** Zencode agnostic and stateless crypto component [... learn more about Zenflows-crypto](/pages/zenflows-crypto)
+* [Zenflows-crypto](/pages/zenflows-crypto): library of cryptographic schemes, used in the back end and front end of FabCityOS written in [Zencode](https://decodeproject.eu/blog/smart-contracts-english-speaker.html) and powered by [Zenroom](https://zenroom.org/).
+* [Zenroom](https://zenroom.org/): multiplatform cryptographic virtual machine and smart contract executor. It can be programmed using the English-like DSL [Zencode](https://decodeproject.eu/blog/smart-contracts-english-speaker.html), designed to be readable by non-programmers. 
+* [Restroom-mw](https://new.dyne.org/restroom-mw/#/): nodeJS based collection of middlewares, that expose Zencode smart contracts to Web APIs and expand the Zencode language.
+-------------------
+-------------------
+
 
 
 ## Playgrounds
 
-* [Staging GUI](http://interfacer-gui-staging.dyne.org)
-* [Staging backend](http://65.109.11.42:8000/api/)
-* [Fabchain RPC server](http://test.fabchain.net:8545)
-* [Fabchain Faucet](https://test.fabchain.net:5000)
-* [Fabchain Explorer](https://test.fabchain.net:8000)	
+* **FabCityOS**: 
+  - [Front end (staging)](http://interfacer-gui-staging.dyne.org)
+  - [Back end (staging)](http://65.109.11.42:8000/api/)
+* **FabChain**:
+  - [RPC server](http://test.fabchain.net:8545)
+  - [Faucet](https://test.fabchain.net:5000)
+  - [Blockchain Explorer](https://test.fabchain.net:8000)
+* [Apiroom](https://apiroom.net/): Zenroom smart contracts IDE	
