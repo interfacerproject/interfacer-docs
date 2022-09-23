@@ -12,8 +12,8 @@ Below a list of selected features of the FabCityOS platform.
 
 #### Cryptography and privacy
 * The sign in/up flow of FabCityOS is managed by the [Zenflows-crypto](/pages/zenflows-crypto) scheme: 
-  - Each operation operation performed by the user is signed using the [EDDSA](https://datatracker.ietf.org/doc/rfc8032/) scheme with the user's private key, which are **never communicated to the server**. The server knows only the public keys of each user, so in case of a server-side security breach, the hackers will not be able to impersonate any user. 
-  - The user's keyring is generate at sign-up based on the user's answers to a set of security questions.
+  - Each operation performed by the user is signed using the [EDDSA](https://datatracker.ietf.org/doc/rfc8032/) scheme with the user's private key, which are **never communicated to the server**. The server knows only the public keys of each user, so in case of a server-side security breach, the hackers will not be able to impersonate any user. 
+  - The user's keyring is generated at sign-up based on the user's answers to a set of security questions.
   - Based on the user's answers to the security questions, a seed as [mnemonic passphrase](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) format is printed out, the seed can be used to recreate the private keys and sign in from the same device or a different one. 
   - In case the seed is lost, it can be recreated by answering the security questions again.
 
@@ -22,7 +22,7 @@ Below a list of selected features of the FabCityOS platform.
 * The data is modeled using the [Valueflows](https://www.valueflo.ws/): an ontology designed to facilitate internetworking of software projects that handle economic transactions.
 
 #### Distributed caching and sharding
-* FabCityOS uses [Zenswarm-storage](/pages/zenswarm-storage.md) as a distrbuted caching and sharding engine for images, document and information. Designed to work as CDN, it can scale easily and deliver data faster 
+* FabCityOS uses [Zenswarm-storage](/pages/zenswarm-storage.md) as a distrbuted caching and sharding engine for images, documents and information. Designed to work as CDN, it can scale easily and deliver data faster 
 
 #### W3C-DID 
 * Users' digital identities (DID) are stored and distributed using the [W3C-DID](https://www.w3.org/TR/did-core/) standard. For each user a W3C-DID document is stored: the document contains no private or sensitive information about the user (no name, email or other) making the whole platform GDPR compliant by design.
