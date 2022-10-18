@@ -1,8 +1,9 @@
 <p align="center">
   <a href="https://www.dyne.org">
-    <img alt="{project_name}" src="https://via.placeholder.com/150.png?text=LOGO" width="150" />
+    <img alt="{project_name}" src="https://raw.githubusercontent.com/dyne/interfacer-docs/main/docs/_media/general/interfacer-logo.png" width="300" />
   </a>
 </p>
+
 
 <h1 align="center">
   Interfacer documentation</br>
