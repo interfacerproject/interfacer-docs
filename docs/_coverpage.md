@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](../_media/general/interfacer-logo.png)
+![logo](https://raw.githubusercontent.com/dyne/interfacer-docs/main/docs/_media/general/interfacer-logo.png)
 
 
 <!--
