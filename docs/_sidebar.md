@@ -7,6 +7,14 @@
 	- [Feature2](https://github.com/LedgerProject/e_privacycentralapp) --->
 
 
+<!--- Future manual, page by page	
+  - [Intro](/pages/user-manual-intro.md)
+  - [Sign up](/pages/user-manual-signup.md)
+ --->
+
+
+- User manual
+  - [Quickstart](/pages/user-manual/quickstart.md)
 
 - **Features and components**
 [Overview: tech features and stack](/pages/components.md)
@@ -21,13 +29,8 @@
 
   - **Sub-modules**
 	- [Zenflows-crypto](/pages/zenflows-crypto.md)
-
-- User manual
-  - [Intro](/pages/user-manual-intro.md)
-  - [Sign up](/pages/user-manual-signup.md)
   
 - Misc
-  - [Powered by Docsify](https://docsify.js.org/)
   - [Contributing](/general/contributing.md)
 
 

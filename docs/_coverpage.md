@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](/media/general/interfacer-logo.png)
+![logo](../_media/general/interfacer-logo.png)
 
 
 <!--
