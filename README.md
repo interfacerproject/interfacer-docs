@@ -10,11 +10,13 @@
   <sub>Documentation for the "FCOS" software developed by <a href="dyne.org">Dyne.org</a> withing the Interfacer Project</sub>
 </h1>
 
-<p align="center">
+<div align="center">
   <a href="https://dyne.org">
     <img src="https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%9D%A4%20by-Dyne.org-blue.svg" alt="Dyne.org">
   </a>
-</p>
+  
+  [![pages-build-deployment](https://github.com/interfacerproject/interfacer-docs/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/interfacerproject/interfacer-docs/actions/workflows/pages/pages-build-deployment)
+</div>
 
 <br><br>
 
