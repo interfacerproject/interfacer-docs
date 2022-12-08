@@ -1,19 +1,16 @@
 <p align="center">
-  <a href="https://www.dyne.org">
-    <img alt="{project_name}" src="https://raw.githubusercontent.com/dyne/interfacer-docs/main/docs/_media/general/interfacer-logo.png" width="300" />
+  <a href="https://www.interfacerproject.eu/">
+    <img alt="Interfacer project" src="https://raw.githubusercontent.com/dyne/interfacer-docs/main/docs/_media/general/interfacer-logo.png" width="300" />
   </a>
 </p>
 
 
 <h1 align="center">
-  Interfacer documentation</br>
-  <sub>Documentation for the "FCOS" software developed by Dyne.org withing the   <a href="https://www.interfacerproject.eu/">Interfacer Project</a> </sub>
+  <a href="https://interfacerproject.github.io/interfacer-docs/#/">Interfacer documentation</a></br>
+  <sub>Documentation for the "FCOS" software developed by <a href="dyne.org">Dyne.org</a> withing the Interfacer Project</sub>
 </h1>
 
 <p align="center">
-  <a href="https://travis-ci.com/DECODEproject/{project_name}">
-    <img src="https://travis-ci.com/DECODEproject/{project_name}.svg?branch=master" alt="Build Status">
-  </a>
   <a href="https://dyne.org">
     <img src="https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%9D%A4%20by-Dyne.org-blue.svg" alt="Dyne.org">
   </a>
