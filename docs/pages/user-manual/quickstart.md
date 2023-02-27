@@ -37,7 +37,7 @@ Next, you need to answer as many (at least 3) of these 5 questions: it's importa
 
 ### Sign-up passphrase
 
-After typing your answers, the platform will return you a **mnemonic passphrase** that you should store somewhere safe as you can later to use it sign-in the platform (from the a different browser or device, or if your browser storage is deleted).
+After typing your answers, the platform will return you a **mnemonic passphrase** that you should store somewhere safe as you can later use it for sign-in the platform (from the a different browser or device, or if your browser storage is deleted).
 
 ![sign-up](../../_media/user-manual/screenshot_nru/nru_/sign_up_passphrase.png)
 
@@ -61,20 +61,25 @@ If the private key is not there (cause you are logging in from a different devic
 Behind the sign-up process is the cryptographic flow [Keypairoom](https://github.com/dyne/keypairoom/).
 
 
+# Top bar: Menu button, Search bar, Notifications, Language preferences
+
+- Menu button: on your left you will always fing the menu button that, when tapped, it opens the left side menu
+- Search bar: you can use the search bar for finding other projects and other people based on their name and keywords contained in their description text.
+- Notifications: internal notification system, used for sending and receiving collaboration requests and updates about the projects you decide to follow
+- Language preferences: At any time, you can easily change your language preferences. Nevertheless, the translations are automatic, not perfect and a continues community effort where support is needed
 
 
+# Projects
 
-# Assets
+New Projects can be manually created, imported, or claimed. Existing Projects can be searched. 
 
-New assets can be manually created, imported, or claimed. Existing assets can be searched. 
+## Create project
 
-## Create asset
-
-You can currently create an asset manually (or claim it from the ones imported from LOSH, see below). It's important to fill all the required fields:
+You can currently create a project manually (or claim it from the ones imported from LOSH, see below). It's important to fill all the required fields:
 
 ![create-asset](../../_media/user-manual/screenshot_ru/create_asset.png)
 
-## Asset page 
+## Project page 
 
 The asset page contains all the information about the asset, including: 
  - Name
@@ -85,22 +90,22 @@ The asset page contains all the information about the asset, including:
 ![asset](../../_media/user-manual/screenshot_ru/asset/061P0XBBP4CXZ3A9T57QA3ZJ9M.png)
 
 
-## My assets
+## My projects
 
-Your list of assets can be found in the **Assets > My assets** submenu. Your assets can be filtered and searched. You can open an asset by clicking onto its name.
+Your list of projects can be found in the **Projects > My projects** submenu. Your projects can be filtered and searched. You can open a project by clicking onto its name.
 
 ![asset](../../_media/user-manual/screenshot_ru/profile/my_profile.png)
 
 
-## Latest assets
+## Projects
 
-In **Assets > Latest assets** you can find the list of all the assets in the platform, sorted chronologically. The assets can be searched and filtered.
+In **Projects > Latest Projects** you can find the list of all the projects in the platform, sorted chronologically. The projects can be searched and filtered.
 
 ![asset](../../_media/user-manual/screenshot_ru/assets.png)
 
 ## Imported from LOSH
 
-In **Assets > Imported from LOSH** you can find all the assets imported from [https://losh.opennext.eu/](https://losh.opennext.eu/). You can claim your assets and added to your asset list.
+In **Projects > Imported from LOSH** you can find all the projects imported from [https://losh.opennext.eu/](https://losh.opennext.eu/). You can claim your assets and added to your asset list.
 
 ![asset](../../_media/user-manual/screenshot_ru/resources.png)
 
