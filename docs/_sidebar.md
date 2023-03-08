@@ -14,7 +14,15 @@
 
 
 - User manual
-  - [Quickstart](/pages/user-manual/quickstart.md)
+  - [Quickstart da rivedere](/pages/user-manual/quickstart.md)
+  - [Add project](/pages/user-manual/add-project.md)
+  - [Search project](/pages/user-manual/search-project.md)
+  - [Contributions](/pages/user-manual/contributions.md)
+  - [Economic Model](/pages/user-manual/economic-model.md)
+  - [DID](/pages/user-manual/did.md)
+  - [Digital Product Passport](/pages/user-manual/dpp.md)
+  - [Import from LOSH](/pages/user-manual/import-losh.md)
+  - [Notifications](/pages/user-manual/notifications.md)
 
 - **Features and components**
 [Overview: tech features and stack](/pages/components.md)
