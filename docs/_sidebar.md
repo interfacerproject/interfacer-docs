@@ -14,7 +14,7 @@
 
 
 - User manual
-  - [Quickstart da rivedere](/pages/user-manual/quickstart.md)
+  - [Quickstart](/pages/user-manual/quickstart.md)
   - [Add project](/pages/user-manual/add-project.md)
   - [Search project](/pages/user-manual/search-project.md)
   - [Contributions](/pages/user-manual/contributions.md)
