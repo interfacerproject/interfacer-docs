@@ -19,3 +19,7 @@
 .markdown-section h1 {
     font-style: italic;
 }
+
+section.cover {
+    min-height: 32rem;
+}
