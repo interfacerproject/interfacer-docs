@@ -28,7 +28,16 @@ On the landing page you can click on **sign in** to sign-in (if you haven't yet 
 
 ![intro](../../_media/user-manual/screenshot_nru/nru_.png) 
 
-# Design, Product, Service
+# Projects
+Create, share, and collaborate on your open source hardware projects using our user-friendly creation form. With fields for project title, description, tags, images, and documentation, you can provide all the necessary information for others to understand and contribute to your project. Plus, with features like version control, licensing options, and project updates, you can ensure that your project is always up-to-date and accessible to a global community of makers, designers, and engineers.
+
+More in the [Add Project](/pages/user-manual/add-project) section
+
+## Design, Products, Services
+
+Designs, products, and services are the three types of projects that can be created on our platform. A design is a documented plan or schematic for making a product, while a product is a physical item made according to a design. A service, on the other hand, is a non-physical offering that provides a solution or meets a need. When creating a project, users can choose the appropriate type based on the nature of their work. Additionally, users can search for and discover these projects on our platform using various search criteria, such as tags, users, location, and more.
+
+More in the [Add Project](/pages/user-manual/add-project) section
 
 # Sign-in
 
@@ -79,57 +88,10 @@ If the private key is not there (cause you are logging in from a different devic
 Behind the sign-up process is the cryptographic flow [Keypairoom](https://github.com/dyne/keypairoom/).
 
 
+
 # Top bar: Menu button, Search bar, Notifications, Language preferences
 
 - Menu button: on your left you will always fing the menu button that, when tapped, it opens the left side menu
 - Search bar: you can use the search bar for finding other projects and other people based on their name and keywords contained in their description text.
 - Notifications: internal notification system, used for sending and receiving collaboration requests and updates about the projects you decide to follow
 - Language preferences: At any time, you can easily change your language preferences. Nevertheless, the translations are automatic, not perfect and a continues community effort where support is needed
-
-
-# Projects
-
-New Projects can be manually created, imported, or claimed. Existing Projects can be searched. 
-
-## Create project
-
-You can currently create a project manually (or claim it from the ones imported from LOSH, see below). It's important to fill all the required fields:
-
-![create-asset](../../_media/user-manual/screenshot_ru/create_asset.png)
-
-## Project page 
-
-The asset page contains all the information about the asset, including: 
- - Name
- - Location
- - Screenshot
- - (more to come)
-
-![asset](../../_media/user-manual/screenshot_ru/asset/061P0XBBP4CXZ3A9T57QA3ZJ9M.png)
-
-
-## My projects
-
-Your list of projects can be found in the **Projects > My projects** submenu. Your projects can be filtered and searched. You can open a project by clicking onto its name.
-
-![asset](../../_media/user-manual/screenshot_ru/profile/my_profile.png)
-
-
-## Projects
-
-In **Projects > Latest Projects** you can find the list of all the projects in the platform, sorted chronologically. The projects can be searched and filtered.
-
-![asset](../../_media/user-manual/screenshot_ru/assets.png)
-
-## Imported from LOSH
-
-In **Projects > Imported from LOSH** you can find all the projects imported from [https://losh.opennext.eu/](https://losh.opennext.eu/). You can claim your assets and added to your asset list.
-
-![asset](../../_media/user-manual/screenshot_ru/resources.png)
-
-
-# Report a bug
-
-You can report a bug by creating an **issue** on the [interfacer-gui](https://github.com/dyne/interfacer-gui/issues/new) repo.
-
-
