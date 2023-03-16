@@ -10,7 +10,16 @@ On the landing page you can click on **sign in** to sign-in (if you haven't yet 
 
 ![intro](../../_media/user-manual/screenshot_nru/nru_.png) 
 
-# Design, Product, Service
+# Projects
+Create, share, and collaborate on your open source hardware projects using our user-friendly creation form. With fields for project title, description, tags, images, and documentation, you can provide all the necessary information for others to understand and contribute to your project. Plus, with features like version control, licensing options, and project updates, you can ensure that your project is always up-to-date and accessible to a global community of makers, designers, and engineers.
+
+More in the [Add Project](/pages/user-manual/add-project) section
+
+## Design, Products, Services
+
+Designs, products, and services are the three types of projects that can be created on our platform. A design is a documented plan or schematic for making a product, while a product is a physical item made according to a design. A service, on the other hand, is a non-physical offering that provides a solution or meets a need. When creating a project, users can choose the appropriate type based on the nature of their work. Additionally, users can search for and discover these projects on our platform using various search criteria, such as tags, users, location, and more.
+
+More in the [Add Project](/pages/user-manual/add-project) section
 
 # Sign-in
 
@@ -59,54 +68,3 @@ The sign up process producess a set of crytpographic private and public keys, as
 If the private key is not there (cause you are logging in from a different device/browser or you have deleted the history of your browser), **the passphrase can be used as a substitute to the private key** to sign-in the platform.
 
 Behind the sign-up process is the cryptographic flow [Keypairoom](https://github.com/dyne/keypairoom/).
-
-
-
-
-
-# Assets
-
-New assets can be manually created, imported, or claimed. Existing assets can be searched. 
-
-## Create asset
-
-You can currently create an asset manually (or claim it from the ones imported from LOSH, see below). It's important to fill all the required fields:
-
-![create-asset](../../_media/user-manual/screenshot_ru/create_asset.png)
-
-## Asset page 
-
-The asset page contains all the information about the asset, including: 
- - Name
- - Location
- - Screenshot
- - (more to come)
-
-![asset](../../_media/user-manual/screenshot_ru/asset/061P0XBBP4CXZ3A9T57QA3ZJ9M.png)
-
-
-## My assets
-
-Your list of assets can be found in the **Assets > My assets** submenu. Your assets can be filtered and searched. You can open an asset by clicking onto its name.
-
-![asset](../../_media/user-manual/screenshot_ru/profile/my_profile.png)
-
-
-## Latest assets
-
-In **Assets > Latest assets** you can find the list of all the assets in the platform, sorted chronologically. The assets can be searched and filtered.
-
-![asset](../../_media/user-manual/screenshot_ru/assets.png)
-
-## Imported from LOSH
-
-In **Assets > Imported from LOSH** you can find all the assets imported from [https://losh.opennext.eu/](https://losh.opennext.eu/). You can claim your assets and added to your asset list.
-
-![asset](../../_media/user-manual/screenshot_ru/resources.png)
-
-
-# Report a bug
-
-You can report a bug by creating an **issue** on the [interfacer-gui](https://github.com/dyne/interfacer-gui/issues/new) repo.
-
-
