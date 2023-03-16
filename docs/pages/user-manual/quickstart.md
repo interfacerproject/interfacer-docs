@@ -96,12 +96,3 @@ The sign up process producess a set of crytpographic private and public keys, as
 If the private key is not there (cause you are logging in from a different device/browser or you have deleted the history of your browser), **the passphrase can be used as a substitute to the private key** to sign-in the platform.
 
 Behind the sign-up process is the cryptographic flow [Keypairoom](https://github.com/dyne/keypairoom/).
-
-
-
-# Top bar: Menu button, Search bar, Notifications, Language preferences
-
-- Menu button: on your left you will always fing the menu button that, when tapped, it opens the left side menu
-- Search bar: you can use the search bar for finding other projects and other people based on their name and keywords contained in their description text.
-- Notifications: internal notification system, used for sending and receiving collaboration requests and updates about the projects you decide to follow
-- Language preferences: At any time, you can easily change your language preferences. Nevertheless, the translations are automatic, not perfect and a continues community effort where support is needed
