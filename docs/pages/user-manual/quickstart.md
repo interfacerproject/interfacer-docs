@@ -1,3 +1,21 @@
+<!--
+SPDX-License-Identifier: AGPL-3.0-or-later
+Copyright (C) 2022-2023 Dyne.org foundation <foundation@dyne.org>.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
 <!--- Future manual, page by page	
 [](../_media/examples/zencode_cookbook/credential/credentialAnyoneVerifyProof.zen ':include :type=code gherkin')
 ![Alice in Wonderland](../_media/images/alice_with_cards-sm.jpg) 
@@ -56,7 +74,7 @@ Next, you need to answer as many (at least 3) of these 5 questions: it's importa
 
 ### Sign-up passphrase
 
-After typing your answers, the platform will return you a **mnemonic passphrase** that you should store somewhere safe as you can later to use it sign-in the platform (from the a different browser or device, or if your browser storage is deleted).
+After typing your answers, the platform will return you a **mnemonic passphrase** that you should store somewhere safe as you can later use it for sign-in the platform (from the a different browser or device, or if your browser storage is deleted).
 
 ![sign-up](../../_media/user-manual/screenshot_nru/nru_/sign_up_passphrase.png)
 
@@ -78,3 +96,12 @@ The sign up process producess a set of crytpographic private and public keys, as
 If the private key is not there (cause you are logging in from a different device/browser or you have deleted the history of your browser), **the passphrase can be used as a substitute to the private key** to sign-in the platform.
 
 Behind the sign-up process is the cryptographic flow [Keypairoom](https://github.com/dyne/keypairoom/).
+
+
+
+# Top bar: Menu button, Search bar, Notifications, Language preferences
+
+- Menu button: on your left you will always fing the menu button that, when tapped, it opens the left side menu
+- Search bar: you can use the search bar for finding other projects and other people based on their name and keywords contained in their description text.
+- Notifications: internal notification system, used for sending and receiving collaboration requests and updates about the projects you decide to follow
+- Language preferences: At any time, you can easily change your language preferences. Nevertheless, the translations are automatic, not perfect and a continues community effort where support is needed
