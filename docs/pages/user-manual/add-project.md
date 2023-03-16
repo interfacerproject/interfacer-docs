@@ -3,6 +3,8 @@ Welcome to the creation form for your new open source hardware project. This for
 
 With fields for project title, description, tags, images, and documentation, you can provide all the necessary information for others to understand and contribute to your project. Plus, with features like version control, licensing options, and project updates, you can ensure that your project is always up-to-date and accessible to your community of makers, designers, and engineers.
 
+When writing your project description, consider the needs and interests of potential collaborators and users. Explain what makes your project unique, what problems it solves or addresses, and why it matters. Use clear and concise language, and avoid technical jargon or overly complex explanations. Ultimately, your project description should be engaging, informative, and compelling, encouraging others to join you in your work.
+
 **Simply select whether your project is a _design_, _service_, or _product_, and fill out the relevant fields with your project details.**
 
 ![Submit Project](../../_media/user-manual/screenshot_ru/createproject.png)
