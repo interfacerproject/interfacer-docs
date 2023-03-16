@@ -8,6 +8,16 @@
 Welcome to Interfacer. 
 On the landing page you can click on **sign in** to sign-in (if you haven't yet created a user) or sign-up.
 
+# Top bar
+
+- **Menu button**: on your left you will always fing the menu button that, when tapped, it opens the left side menu
+
+- **Search bar**: you can use the search bar for finding other projects and other people based on their name and keywords contained in their description text.
+
+- **Notifications**: internal notification system, used for sending and receiving collaboration requests and updates about the projects you decide to follow
+
+- **Language preferences**: At any time, you can easily change your language preferences. Nevertheless, the translations are automatic, not perfect and a continues community effort where support is needed
+
 ![intro](../../_media/user-manual/screenshot_nru/nru_.png) 
 
 # Projects
