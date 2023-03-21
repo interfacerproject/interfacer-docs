@@ -2,7 +2,9 @@
 
 ![project page](../../_media/user-manual/screenshot_ru/project-page.png)
 
-## Oper Know How (OKH) Checker
+
+
+## Open Know How (OKH) Checker
 
 ### Adopting Open Source Hardware Standards for Better Quality and Compatibility
 
