@@ -34,6 +34,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 - User manual
   - [Quickstart](/pages/user-manual/quickstart.md)
   - [Add project](/pages/user-manual/add-project.md)
+  - [Project page](/pages/user-manual/project-page.md)
   - [Search project](/pages/user-manual/search-project.md)
   - [Contributions](/pages/user-manual/contributions.md)
   - [Economic Model](/pages/user-manual/economic-model.md)

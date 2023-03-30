@@ -38,3 +38,8 @@ Projects can be related in many ways, such as through design inspiration, collab
 The **_Digital Product Passport (DPP)_** is a tool that allows users to keep track of important information about their open hardware project, such as its design, components, and production processes. With the DPP, users can easily share information about their project with others and ensure that everyone has access to accurate and up-to-date information. 
 
 Additionally, the DPP can be used to track the relationships between different open hardware projects, allowing users to easily identify dependencies and potential areas for collaboration.
+
+------
+
+## Project Page 
+More in the [Project Page](/pages/user-manual/project-page.md) section.
