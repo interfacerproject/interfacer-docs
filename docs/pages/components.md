@@ -23,6 +23,11 @@ Welcome to the documentation of Fab City Os core platform, one of the main compo
 This platform provides innovative tools to support the complexity of a distributed accounting system for flexible collaboration processes, it leverages crypto technology to empower participants with privacy, transparency and data ownership and can be adopted to implement fair and equitable compensation mechanisms.
 
 
+## User manual
+
+[The Instruction manual](/pages/user-manual/quickstart.md) has been carefully conceived for helping the user to make full use of the Interfacer Platform. The document contains detailed explanations regarding operations, procedures and functionalities and further support channels.
+
+
 ## Technical features
 
 Internal modules use well-established open-source tools like PostreSQL and Tarantool, among the languages we used, the most used are C, Typescript, Golang, Elixir and Lua. The
