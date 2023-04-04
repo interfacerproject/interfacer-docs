@@ -2,15 +2,13 @@
 The Interfacer Project follows an Economic Model inspired by Keynesian economics named "**Creative Flows**." Its aim is to distribute value throughout the supply chain, tracing the effort of contributors and displaying which projects generate more involvement and participation. This system allows for transparent value redistribution to ensure fair compensation for all contributors.
 
 ## Creative Flows
-This is an extract from **_Creative Flows_**, _an Economic model for distributed design and production_ (Denis Roio, Stefano Lucarelli)
-
-[...] We based our implementation on the organisation of meaningful data and interactions for which the FabCity OS constitutes an advanced accounting system. We organise the record of all exchanges according to a Resource-Event-Agent accounting system (REA) whose data rests on a Graph database that documents all relationships and offers an easy way to search through them. Then we apply the Valueflows vocabulary as one possible semantic organisation of this data. By doing so, we use "points" to the interactions between Agents, for instance, the agreed offer and provision of contributions to projects. The points are of two different kinds to map two different dimensions in Keynesian economics: 
+We based our implementation on the organisation of meaningful data and interactions for which the platform constitutes an advanced accounting system. We organise the record of all exchanges according to a Resource-Event-Agent accounting system (REA) whose data rests on a Graph database that documents all relationships and offers an easy way to search through them. Then we apply the Valueflows vocabulary as one possible semantic organisation of this data. By doing so, we use "points" to the interactions between Agents, for instance, the agreed offer and provision of contributions to projects. The points are of two different kinds to map two different dimensions in Keynesian economics: 
 
 💡 Idea points -> debt 
 
 💪 Strength points -> credit 
 
-This configuration contemplates the existence of agents acting as Entrepreneurs within a network and proposing their "ideas" as possible projects on which the collective (one or more federated FabCities) may decide to invest. 
+This configuration contemplates the existence of agents acting as Entrepreneurs within a network and proposing their "ideas" as possible projects on which the collective may decide to invest. 
 
 # How it works
 This system allows us to track the contributions on the projects made by each contributor, measuring the "💪_strength_" in terms of the effort they put into them. 
