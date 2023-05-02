@@ -30,33 +30,35 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   - [Sign up](/pages/user-manual-signup.md)
  --->
 
+- [Quickstart](/pages/user-manual/quickstart.md)
 
 - User manual
-  - [Quickstart](/pages/user-manual/quickstart.md)
+  - [Sign-up](/pages/user-manual/sign-up.md)
   - [Add project](/pages/user-manual/add-project.md)
   - [Project page](/pages/user-manual/project-page.md)
   - [Search project](/pages/user-manual/search-project.md)
   - [Contributions](/pages/user-manual/contributions.md)
-  - [Economic Model](/pages/user-manual/economic-model.md)
-  - [DID](/pages/user-manual/did.md)
   - [Digital Product Passport](/pages/user-manual/dpp.md)
+  - [W3C-DID](/pages/user-manual/did.md)
   - [Import from LOSH](/pages/user-manual/import-losh.md)
   - [Notifications](/pages/user-manual/notifications.md)
+  - [Economic Model](/pages/user-manual/economic-model.md)
 
 - **Features and components**
-[Overview: tech features and stack](/pages/components.md)
-  - **Back-end**
+  - [Tech features and stack](/pages/components.md)
+ <!---- - **Back-end**
 	- [Zenflows](/pages/zenflows.md)
 	- [Zenswarm-storage](/pages/zenswarm-storage.md)
-	- [Fabchain](/pages/fabchain.md)
-	- [W3C-DID](https://new.dyne.org/W3C-DID/#/)
+ [Fabchain](/pages/fabchain.md) 
+
+	- [W3C-DID service](https://dyne.org/W3C-DID/)
   - **Front-end**
 	- [Interfacer-GUI](/pages/interfacer-gui.md)
-<!---	- [Loshifacer](/pages/loshifacer.md) --->
+    - [Loshifacer](/pages/loshifacer.md) 
 
   - **Sub-modules**
 	- [Zenflows-crypto](/pages/zenflows-crypto.md)
-  
+--->  
 - Misc
   - [Contributing](/general/contributing.md)
 
