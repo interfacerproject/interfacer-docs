@@ -46,6 +46,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 - **Features and components**
   - [Tech features and stack](/pages/components.md)
+
+- Contacts
+  - [Let's talk!](/pages/user-manual/contacts.md)
+
+<!--- Comments here --->
+
+
  <!---- - **Back-end**
 	- [Zenflows](/pages/zenflows.md)
 	- [Zenswarm-storage](/pages/zenswarm-storage.md)
@@ -59,8 +66,3 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   - **Sub-modules**
 	- [Zenflows-crypto](/pages/zenflows-crypto.md)
 --->  
-- Misc
-  - [Contributing](/general/contributing.md)
-
-
-<!--- Comments here --->
