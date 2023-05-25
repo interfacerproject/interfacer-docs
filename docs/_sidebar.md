@@ -16,19 +16,6 @@ You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 -->
 
-- Welcome to Interfacer
-
-<!---
-- Technology
-  - **List of tech features**
-	- [Feature1](https://github.com/LedgerProject/Anastasis)
-	- [Feature2](https://github.com/LedgerProject/e_privacycentralapp) --->
-
-
-<!--- Future manual, page by page	
-  - [Intro](/pages/user-manual-intro.md)
-  - [Sign up](/pages/user-manual-signup.md)
- --->
 
 - [Quickstart](/pages/user-manual/quickstart.md)
 
