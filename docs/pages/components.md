@@ -98,15 +98,3 @@ List of the component stack that power Interfacer.
 -------------------
 -------------------
 
-
-
-## Playgrounds
-
-* **Interfacer**: 
-  - [Front end (staging)](https://beta.interfacer.dyne.org/)
-  - [Back end (staging)](http://65.109.11.42:8000/api/)
-<!-- * **FabChain**:
-  - [RPC server](http://test.fabchain.net:8545)
-  - [Faucet](https://test.fabchain.net:5000)
-  - [Blockchain Explorer](https://test.fabchain.net:8000) -->
-* [Apiroom](https://apiroom.net/): Zenroom smart contracts IDE	
