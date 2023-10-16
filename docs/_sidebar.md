@@ -34,6 +34,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 - **Features and components**
   - [Tech features and stack](/pages/components.md)
 
+- **User policies and misuse reporting**
+  - [Policies and misuse reporting](/pages/policy.md)
+
 - Contacts
   - [Let's talk!](/pages/user-manual/contacts.md)
 
