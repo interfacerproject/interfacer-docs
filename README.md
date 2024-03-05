@@ -50,7 +50,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 </h4>
 
 
-Tech components and User manual of the Fab City OS core platform. Check out <a href="https://interfacerproject.github.io/interfacer-docs/#/">here</a>. </br> 
+Tech components and User manual of the Fab City OS core platform. </br> 
 
 <details id="toc">
  <summary><strong>🚩 Table of Contents</strong> (click to expand)</summary>
@@ -68,6 +68,8 @@ Tech components and User manual of the Fab City OS core platform. Check out <a h
 https://interfacer.dyne.org (live online demo)
 
 https://www.interfacer.eu/ (project website)
+
+https://interfacerproject.github.io/interfacer-docs (this manual)
 
 https://dyne.org/ (developer website)
 
