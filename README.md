@@ -26,7 +26,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 <h1 align="center">
  <!-- <a href="https://interfacerproject.github.io/interfacer-docs/#/">Interfacer documentation</a></br> -->
   <sub>Documentation of Fab City OS core
-  Software developed by <a href="dyne.org">Dyne.org</a> withing the <a href="https://www.interfacerproject.eu/">Interfacer Project</a> </sub>
+  Software developed by <a href="https://dyne.org">Dyne.org</a> for the <a href="https://www.interfacerproject.eu/">Interfacer Project</a> </sub>
 </h1>
 
 <div align="center">
@@ -65,9 +65,11 @@ Tech components and User manual of the Fab City OS core platform. Check out <a h
 
 ## 🌐 Links
 
-https://www.interfacerproject.eu/
+https://interfacer.dyne.org (live online demo)
 
-https://dyne.org/
+https://www.interfacer.eu/ (project website)
+
+https://dyne.org/ (developer website)
 
 **[🔝 back to top](#toc)**
 
